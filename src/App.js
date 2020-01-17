@@ -3,6 +3,7 @@ import React from 'react';
 import './global.css';
 import './App.css';
 import './Sidebar.css';
+import './Main.css';
 
 function App() {
   return (
@@ -35,7 +36,53 @@ function App() {
           <button type="submit">Salvar</button>
         </form>
       </aside>
-      <main></main>
+
+      <main>
+        <ul>
+          <li class="dev-item">
+            <header>
+              <img
+                src="https://avatars0.githubusercontent.com/u/28929274?s=200&v=4"
+                alt="Rocketseat"
+              />
+              <div className="user-info">
+                <strong>Rocketseat</strong>
+                <span>ReactJS, React Native, Node.js</span>
+              </div>
+            </header>
+            <p>Plataforma de educação em tecnologia 🚀</p>
+            <a href="https://github.com/Rocketseat">Acessar perfil no Github</a>
+          </li>
+          <li class="dev-item">
+            <header>
+              <img
+                src="https://avatars0.githubusercontent.com/u/28929274?s=200&v=4"
+                alt="Rocketseat"
+              />
+              <div className="user-info">
+                <strong>Rocketseat</strong>
+                <span>ReactJS, React Native, Node.js</span>
+              </div>
+            </header>
+            <p>Plataforma de educação em tecnologia 🚀</p>
+            <a href="https://github.com/Rocketseat">Acessar perfil no Github</a>
+          </li>
+          <li class="dev-item">
+            <header>
+              <img
+                src="https://avatars0.githubusercontent.com/u/28929274?s=200&v=4"
+                alt="Rocketseat"
+              />
+              <div className="user-info">
+                <strong>Rocketseat</strong>
+                <span>ReactJS, React Native, Node.js</span>
+              </div>
+            </header>
+            <p>Plataforma de educação em tecnologia 🚀</p>
+            <a href="https://github.com/Rocketseat">Acessar perfil no Github</a>
+          </li>
+        </ul>
+      </main>
     </div>
   );
 }
